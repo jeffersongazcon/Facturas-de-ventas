@@ -1,27 +1,27 @@
-﻿using System;
+﻿using ENTITY;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ENTITY;
 
 namespace DAL
 {
-    public class DetalleFacturaRepositorio : IcrudBase<DetalleFactura>
+    public class FacturaRepositorio : IcrudBase <Factura>
     {
-        public string Add(DetalleFactura ENTITY)
+        public string Add(Factura ENTITY)
         {
             throw new NotImplementedException();
         }
-        public string Delete(DetalleFactura ENTITY)
+        public string Delete(Factura ENTITY)
         {
             throw new NotImplementedException();
         }
-        public string Update(DetalleFactura ENTITY)
+        public string Update(Factura ENTITY)
         {
             throw new NotImplementedException();
         }
-        public List<DetalleFactura> GetAll()
+        public List<Factura> GetAll()
         {
             throw new NotImplementedException();
         }
