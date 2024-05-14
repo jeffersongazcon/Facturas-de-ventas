@@ -7,40 +7,41 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class ProductoRepositorio : ICrudBase<Producto>
+    public class ProductosRepositorio : IcrudBase<Productos>
     {
-        private List<Producto> _productos = new List<Producto>();
-
-        public string Add(Producto entity)
+        private List<Productos> productosList = new List<Productos>();
+            
+        public string Add(Productos ENTITY)
         {
-            _productos.Add(entity);
-            return "Producto registrado exitosamente";
+            productosList.Add(ENTITY);
+            return "Producto agregado exitosamente";
         }
 
-        public string Delete(Producto entity)
+        public string Delete(Productos ENTITY)
         {
-            _productos.Remove(entity);
-            return "Producto eliminado exitosamente";
+            if (productosList.Remove(ENTITY))
+                return "Producto eliminado";
+            else
+                return "Producto no encontrado";
         }
 
-        public string Update(Producto entity)
+        public string Update(Productos ENTITY)
         {
-            var producto = _productos.FirstOrDefault(p => p.Referencia == entity.Referencia);
-            if (producto != null)
+            var index = productosList.FindIndex(p => p.Referencia == ENTITY.Referencia);
+            if (index != 1)
             {
-                producto.Nombre = entity.Nombre;
-                producto.Cantidad = entity.Cantidad;
-                producto.PrecioUnitario = entity.PrecioUnitario;
-                producto.StockMinimo = entity.StockMinimo;
-                producto.Estado = entity.Estado;
-                return "Producto actualizado exitosamente";
+                productosList[index] = ENTITY;
+                return "Producto actualizado con exito";
             }
-            return "Producto no encontrado";
+            else
+            {
+                return "Producto no encontrado";
+            }
         }
 
-        public List<Producto> GetAll()
+        List<Productos> IcrudBase<Productos>.GetAll()
         {
-            return _productos;
+            return productosList;
         }
     }
 }
