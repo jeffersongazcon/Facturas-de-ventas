@@ -10,30 +10,23 @@ namespace BLL
 {
     public class ServicioProductos
     {
-        private readonly DetalleFacturaRepository detalleFacturaRepository;
-        public DetalleFacturaRepository()
-        {
-            detalleFacturaRepository = new DetalleFacturaRepository();
-        }
-        public string ImprimirFactura(Factura factura)
-        {
-            try
-            {
+        char OP='S';
+        private List<Producto> productos = new List<Producto>();
 
-                if (servicioRepository.Buscar(productos.Identificacion) == null)
-                {
-                    servicioRepository.Guardar(productos);
-                    return $"se han guardado Satisfactoriamente los datos de: {productos.Nombre} ";
-                }
-                else
-                {
-                    return $"Lo sentimos, con la Identificación {productos.Referencia} ya se encuentra registrada";
-                }
-            }
-            catch (Exception e)
+        public void RegistroProducto(string referencia, string nombre, int cantidad, float precioUnitario, int stockMinimo, string estado)
+        {
+            while (OP == 'S')
             {
+                switch (OP) 
+                {
+                    case '0';
+                        throw new ArgumentException("La referencia de producto no puede estar vacía.");
+                        break;
+                    case '1':
 
-                return $"Error de la Aplicacion: {e.Message}";
+                        break;
+
+                }
             }
         }
     }
