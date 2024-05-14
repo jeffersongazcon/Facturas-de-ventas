@@ -1,0 +1,17 @@
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Entrega.FormularioPrincipal.resources
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Entrega.Properties.Resources.resources
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\Entrega.exe.config
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\Entrega.exe
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\Entrega.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\BLL.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\DAL.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\ENTITY.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\BLL.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\DAL.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\bin\Debug\ENTITY.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Entrega.exe
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\Entrega\obj\Debug\Entrega.pdb

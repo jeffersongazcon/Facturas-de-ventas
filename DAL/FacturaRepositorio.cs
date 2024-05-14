@@ -7,23 +7,37 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class FacturaRepositorio : IcrudBase <Factura>
+    public class FacturaRepositorio : ICrudBase<Factura>
     {
-        public string Add(Factura ENTITY)
+        private List<Factura> _facturas = new List<Factura>();
+
+        public string Add(Factura entity)
         {
-            throw new NotImplementedException();
+            _facturas.Add(entity);
+            return "Factura registrada exitosamente";
         }
-        public string Delete(Factura ENTITY)
+
+        public string Delete(Factura entity)
         {
-            throw new NotImplementedException();
+            _facturas.Remove(entity);
+            return "Factura eliminada exitosamente";
         }
-        public string Update(Factura ENTITY)
+
+        public string Update(Factura entity)
         {
-            throw new NotImplementedException();
+            var factura = _facturas.FirstOrDefault(f => f.IdFactura == entity.IdFactura);
+            if (factura != null)
+            {
+                factura.FechaFactura = entity.FechaFactura;
+                factura.ValorTotalFacturado = entity.ValorTotalFacturado;
+                return "Factura actualizada exitosamente";
+            }
+            return "Factura no encontrada";
         }
+
         public List<Factura> GetAll()
         {
-            throw new NotImplementedException();
+            return _facturas;
         }
     }
 }

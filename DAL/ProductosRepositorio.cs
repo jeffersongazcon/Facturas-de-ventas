@@ -7,23 +7,40 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class ProductosRepositorio : IcrudBase <ProductosRepositorio>
+    public class ProductoRepositorio : ICrudBase<Producto>
     {
-        public string Add(ProductosRepositorio ENTITY)
+        private List<Producto> _productos = new List<Producto>();
+
+        public string Add(Producto entity)
         {
-            throw new NotImplementedException();
+            _productos.Add(entity);
+            return "Producto registrado exitosamente";
         }
-        public string Delete(ProductosRepositorio ENTITY)
+
+        public string Delete(Producto entity)
         {
-            throw new NotImplementedException();
+            _productos.Remove(entity);
+            return "Producto eliminado exitosamente";
         }
-        public string Update(ProductosRepositorio ENTITY)
+
+        public string Update(Producto entity)
         {
-            throw new NotImplementedException();
+            var producto = _productos.FirstOrDefault(p => p.Referencia == entity.Referencia);
+            if (producto != null)
+            {
+                producto.Nombre = entity.Nombre;
+                producto.Cantidad = entity.Cantidad;
+                producto.PrecioUnitario = entity.PrecioUnitario;
+                producto.StockMinimo = entity.StockMinimo;
+                producto.Estado = entity.Estado;
+                return "Producto actualizado exitosamente";
+            }
+            return "Producto no encontrado";
         }
-        public List<ProductosRepositorio> GetAll()
+
+        public List<Producto> GetAll()
         {
-            throw new NotImplementedException();
+            return _productos;
         }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\ENTITY\obj\Debug\ENTITY.pdb

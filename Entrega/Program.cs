@@ -16,7 +16,7 @@ namespace Entrega
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegistroProductosForm());
+            Application.Run(new FormularioPrincipal());
         }
     }
 }

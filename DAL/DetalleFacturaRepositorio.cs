@@ -7,23 +7,42 @@ using ENTITY;
 
 namespace DAL
 {
-    public class DetalleFacturaRepositorio : IcrudBase<DetalleFactura>
+    public class DetalleFacturaRepositorio : ICrudBase<DetalleFactura>
     {
-        public string Add(DetalleFactura ENTITY)
+        private List<DetalleFactura> _detalles = new List<DetalleFactura>();
+
+        public string Add(DetalleFactura entity)
         {
-            throw new NotImplementedException();
+            _detalles.Add(entity);
+            return "Detalle de factura registrado exitosamente";
         }
-        public string Delete(DetalleFactura ENTITY)
+
+        public string Delete(DetalleFactura entity)
         {
-            throw new NotImplementedException();
+            _detalles.Remove(entity);
+            return "Detalle de factura eliminado exitosamente";
         }
-        public string Update(DetalleFactura ENTITY)
+
+        public string Update(DetalleFactura entity)
         {
-            throw new NotImplementedException();
+            var detalle = _detalles.FirstOrDefault(d => d.IdDetalle == entity.IdDetalle);
+            if (detalle != null)
+            {
+                detalle.IdFactura = entity.IdFactura;
+                detalle.FechaFactura = entity.FechaFactura;
+                detalle.ReferenciaProducto = entity.ReferenciaProducto;
+                detalle.Nombre = entity.Nombre;
+                detalle.Cantidad = entity.Cantidad;
+                detalle.PrecioUnitario = entity.PrecioUnitario;
+                detalle.ValorItemVendido = entity.ValorItemVendido;
+                return "Detalle de factura actualizado exitosamente";
+            }
+            return "Detalle de factura no encontrado";
         }
+
         public List<DetalleFactura> GetAll()
         {
-            throw new NotImplementedException();
+            return _detalles;
         }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\bin\Debug\DAL.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\bin\Debug\ENTITY.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\bin\Debug\ENTITY.pdb
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\obj\Debug\DAL.dll
+C:\Users\Lenovo\OneDrive\Documentos\prueba\Facturas-de-ventas\DAL\obj\Debug\DAL.pdb

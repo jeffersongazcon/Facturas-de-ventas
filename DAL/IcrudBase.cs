@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public interface IcrudBase <T>
+    public interface ICrudBase<T>
     {
-        string Add (T ENTITY);
-        string Delete (T ENTITY);
-        string Update (T ENTITY);
-        List<T> GetAll ();
+        string Add(T entity);
+        string Delete(T entity);
+        string Update(T entity);
+        List<T> GetAll();
     }
 }
