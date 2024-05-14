@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class Productos : IcrudBase <Productos>
+    public class ProductosRepositorio : IcrudBase <ProductosRepositorio>
     {
-        public string Add(Productos ENTITY)
+        public string Add(ProductosRepositorio ENTITY)
         {
             throw new NotImplementedException();
         }
-        public string Delete(Productos ENTITY)
+        public string Delete(ProductosRepositorio ENTITY)
         {
             throw new NotImplementedException();
         }
-        public string Update(Productos ENTITY)
+        public string Update(ProductosRepositorio ENTITY)
         {
             throw new NotImplementedException();
         }
-        public List<Productos> GetAll()
+        public List<ProductosRepositorio> GetAll()
         {
             throw new NotImplementedException();
         }
