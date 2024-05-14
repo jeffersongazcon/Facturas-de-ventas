@@ -8,7 +8,7 @@ namespace ENTITY
 {
     public class Productos
     {
-       public Productos(string referencia, string nombre, int cantidad, float precioUnitario, int stockMinimo, string estado)
+       public Productos(string referencia, string nombre, int cantidad, float precioUnitario, int stockMinimo, bool estado)
        {
             Referencia = referencia;
             Nombre = nombre;
@@ -27,6 +27,6 @@ namespace ENTITY
         public int Cantidad { get; set;}
         public float PrecioUnitario { get; set;}
         public int StockMinimo { get; set;}
-        public string Estado { get; set;}
+        public bool Estado { get; set;}
     }
 }

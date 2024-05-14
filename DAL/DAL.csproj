@@ -44,7 +44,7 @@
     <Compile Include="DetalleFacturaRepositorio.cs" />
     <Compile Include="FacturaRepositorio.cs" />
     <Compile Include="IcrudBase.cs" />
-    <Compile Include="Productos.cs" />
+    <Compile Include="ProductosRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
