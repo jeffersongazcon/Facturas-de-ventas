@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{E11496D1-45BC-457A-B94E-1FA46CC7FEB4}|DAL\\DAL.csproj|solutionrelative:dal\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E11496D1-45BC-457A-B94E-1FA46CC7FEB4}|DAL\\DAL.csproj|c:\\users\\daniel\\onedrive\\documentos\\programacion de computadores 3\\parcial p3\\facturas-de-ventas\\dal\\facturarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entity\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11496D1-45BC-457A-B94E-1FA46CC7FEB4}|DAL\\DAL.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\dal\\facturarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E11496D1-45BC-457A-B94E-1FA46CC7FEB4}|DAL\\DAL.csproj|solutionrelative:dal\\facturarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{E11496D1-45BC-457A-B94E-1FA46CC7FEB4}|DAL\\DAL.csproj|solutionrelative:dal\\icrudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|c:\\users\\daniel\\onedrive\\documentos\\programacion de computadores 3\\parcial p3\\facturas-de-ventas\\entity\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entity\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entity\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D692F456-F9F9-484B-A170-BAEE77225143}|ENTITY\\ENTITY.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +39,8 @@
       "RelativeMoniker": "D:0:0:{D87D4D85-DB2D-470A-8F33-580A734D422F}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9FBB88D-79D1-4EF2-A847-85A340A0B433}|Entrega\\Entrega.csproj|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9FBB88D-79D1-4EF2-A847-85A340A0B433}|Entrega\\Entrega.csproj|solutionrelative:entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:entrega\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "DAL\\Productos.cs",
               "ToolTip": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\DAL\\Productos.cs",
               "RelativeToolTip": "DAL\\Productos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T01:25:46.589Z",
               "EditorCaption": ""
@@ -80,6 +80,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\ENTITY\\Productos.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Productos.cs",
+              "ToolTip": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\ENTITY\\Productos.cs",
+              "RelativeToolTip": "ENTITY\\Productos.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:50:04.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FacturaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\DAL\\FacturaRepositorio.cs",
               "RelativeDocumentMoniker": "DAL\\FacturaRepositorio.cs",
@@ -87,12 +100,11 @@
               "RelativeToolTip": "DAL\\FacturaRepositorio.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAowBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T01:24:18.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T01:24:18.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DetalleFacturaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\DAL\\DetalleFacturaRepositorio.cs",
               "RelativeDocumentMoniker": "DAL\\DetalleFacturaRepositorio.cs",
@@ -100,12 +112,11 @@
               "RelativeToolTip": "DAL\\DetalleFacturaRepositorio.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T00:56:18.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T00:56:18.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IcrudBase.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\DAL\\IcrudBase.cs",
               "RelativeDocumentMoniker": "DAL\\IcrudBase.cs",
@@ -113,24 +124,11 @@
               "RelativeToolTip": "DAL\\IcrudBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T00:51:42.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T00:51:42.525Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\ENTITY\\Productos.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Productos.cs",
-              "ToolTip": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\ENTITY\\Productos.cs",
-              "RelativeToolTip": "ENTITY\\Productos.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T00:50:04.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\ENTITY\\Factura.cs",
               "RelativeDocumentMoniker": "ENTITY\\Factura.cs",
@@ -142,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DetalleFactura.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\OneDrive\\Documentos\\PROGRAMACION DE COMPUTADORES 3\\Parcial p3\\Facturas-de-ventas\\ENTITY\\DetalleFactura.cs",
               "RelativeDocumentMoniker": "ENTITY\\DetalleFactura.cs",
@@ -150,8 +148,7 @@
               "RelativeToolTip": "ENTITY\\DetalleFactura.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T00:50:04.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T00:50:04.579Z"
             },
             {
               "$type": "Document",

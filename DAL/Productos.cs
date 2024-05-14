@@ -9,21 +9,37 @@ namespace DAL
 {
     public class Productos : IcrudBase <Productos>
     {
+        public List<Productos> productosList = new List<Productos>();
+
         public string Add(Productos ENTITY)
         {
-            throw new NotImplementedException();
+            productosList.Add(ENTITY);
+            return "Producto agregado exitosamente";
+
         }
         public string Delete(Productos ENTITY)
         {
-            throw new NotImplementedException();
+            if (productosList.Remove(ENTITY))
+                return "Producto eliminado exitosamente.";
+            else
+                return "Producto no encontrado.";
         }
         public string Update(Productos ENTITY)
         {
-            throw new NotImplementedException();
+            var index = productosList.FindIndex(p => p.productosList == ENTITY.productosList);
+            if (index != -1)
+            {
+                productosList[index] = ENTITY;
+                return "Producto actualizado exitosamente.";
+            }
+            else
+            {
+                return "Producto no encontrado.";
+            }
         }
         public List<Productos> GetAll()
         {
-            throw new NotImplementedException();
+            return productosList;
         }
     }
 }
